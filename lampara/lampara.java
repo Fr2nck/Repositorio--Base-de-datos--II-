@@ -1,6 +1,9 @@
 package lampara;
+
+// clase padre
 public class lampara {
-    // Atributos
+
+    // Atributos primarios
     private String color;
     private boolean encendida;
     
@@ -10,12 +13,13 @@ public class lampara {
         this.encendida = false;
     }
     
-    // Métodos
+    // Método para encender
     public void encender() {
         this.encendida = true;
-        System.out.println("Lámpara encendida");
+        System.out.println("Lampara encendida");
     }
-    // Métodos públicos para acceder a los atributos (si es necesario)
+
+    // Métodos de acceso (getters)
     public String getcolor() {
         return color;
     }
