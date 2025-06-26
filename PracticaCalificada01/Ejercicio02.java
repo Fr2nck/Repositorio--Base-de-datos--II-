@@ -5,7 +5,7 @@ public class Ejercicio02 {
         Scanner scanner = new Scanner(System.in);        
         System.out.print("Ingrese un número para calcular su factorial: ");
         int num = scanner.nextInt();
-        long factorial = 1;        
+        int factorial = 1;        
         if (num < 0) {
             System.out.println("No existe factorial de números negativos.");
         } else {
