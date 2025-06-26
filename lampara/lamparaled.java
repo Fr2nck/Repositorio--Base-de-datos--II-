@@ -1,4 +1,5 @@
 package lampara;
+
 // Clase hija que hereda de Lampara
 public class lamparaled extends lampara {
 
@@ -14,6 +15,6 @@ public class lamparaled extends lampara {
     // Sobrescribimos el método encender()
     @Override
     public void encender() {
-        System.out.println("Lampara led encendida con luz suave e intensidad: " + intensidad);
+        System.out.println("Lampara led encendida a intensidad: " + intensidad);
     }
 }

@@ -7,7 +7,7 @@ public class lampara {
     private String color;
     private boolean encendida;
     
-    // Constructor
+    // Constructor (instancia)
     public lampara(String color) {
         this.color = color;
         this.encendida = false;
