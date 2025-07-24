@@ -1,5 +1,8 @@
 package sistemaUsuarios;
+
+// clase rol que representa un rol de usuario en el sistema
 public class rol {
+    
     // atributos de la clase rol   
     private String idRol;
     private String nomRol;

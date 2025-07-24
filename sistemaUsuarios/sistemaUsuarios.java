@@ -8,13 +8,12 @@ public class sistemaUsuarios {
         rol administrador = new rol(
             "ROL0001",
             "Administrador",
-            "Administrador del sistema"
-            );
+            "Administrador del sistema");
         
         // mostrar los datos del rol
         System.out.println("Rol creado:");
         System.out.println(administrador);
-
+        
         // crear un usuario con el rol creado
         usuario usuario01 = new usuario(
             "USU0001",
@@ -27,8 +26,7 @@ public class sistemaUsuarios {
             "admin123",
             LocalDate.of(1990, 5, 20),
             "987654321",
-            'A'
-            );
+            'A');
         
         // mostrar los datos del usuario
         System.out.println("Usuario creado:");

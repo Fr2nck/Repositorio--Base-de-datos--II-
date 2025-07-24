@@ -3,6 +3,7 @@ import java.time.LocalDate;
 
 // clase usuario que representa a un usuario del sistema
 public class usuario {
+
     // atributos de la clase usuario
     private String idUsu;
     private rol rol;    // relacion con la clase rol
