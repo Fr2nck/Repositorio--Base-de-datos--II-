@@ -74,4 +74,3 @@ public class usuario {
         return nomUsu + " " + apePatUsu + " (" + rol + ")";
     }
 }
-
