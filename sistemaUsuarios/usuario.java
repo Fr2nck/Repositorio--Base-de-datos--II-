@@ -70,7 +70,7 @@ public class usuario {
     // metodo toString para mostrar el nombre + apellido del usuario junto con su rol
     @Override
     public String toString() {
-        return nomUsu + " " + apePatUsu + " (" + rol.getNomRol() + ")";
+        return nomUsu + " " + apePatUsu + " (" + rol + ")";
     }
 }
 

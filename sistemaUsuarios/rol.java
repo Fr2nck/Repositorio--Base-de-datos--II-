@@ -26,6 +26,6 @@ public class rol {
     // metodo toString para mostrar el nombre y descripcion del rol
     @Override
     public String toString() {
-        return nomRol + " - " + desRol;
+        return nomRol;
     }
 }
