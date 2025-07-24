@@ -29,6 +29,7 @@ public class sistemaUsuarios {
             "987654321",
             'A'
             );
+        
         // mostrar los datos del usuario
         System.out.println("Usuario creado:");
         System.out.println(usuario01);
